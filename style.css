@@ -1,0 +1,129 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling the navigation bar background color */
+nav {
+  background-color: white;
+}
+
+/* Styling the navigation bar layout with flexbox */
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: left;
+  padding: 10px 10px 10px 70px;
+}
+
+nav ul li {
+  margin: 0 20px;
+  padding: 10px;
+  font-family: 'Inria Serif', serif;
+  font-size: 30px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* https://tinyurl.com/b44thufc */
+/* Add underline to link on hover in CSS */
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* --------------------------------- */
+/* 30 px + 20 px + 10*/
+/* Align on 60px */
+
+main {
+  background-color: #32416b;
+  color: white;
+  padding: 80px 100px 100px 100px;
+  font-size: 18px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 150px;
+  width: auto;
+}
+
+.bio-text h1 {
+  font-family: 'Inria Serif', serif;
+  font-size: 100px;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.bio p {
+  padding: 10px 0px;
+  font-weight: 300;
+  font-family: 'Inter';
+}
+
+.bio-links {
+  padding-top: 20px;
+}
+
+.bio-links ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: left;
+  gap: 30px;
+  align-items: center;
+}
+
+.bio-links ul li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.bio-links button {
+  padding: 5px 15px;
+  color: white;
+  background-color: #32416b;
+  text-decoration: none;
+  border: solid 0.5px;
+  border-radius: 3px;
+  border-color: white;
+
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+button span {
+  padding-right: 5px;
+  font-size: 18px;
+}
+
+button:hover {
+  border-color: black;
+  stroke: black;
+  color: black;
+}
+
+svg:hover {
+  stroke: black;
+}
+
+/* https://www.w3schools.com/css/css3_images.asp */
+.profile img {
+  border-radius: 5%;
+  /* I do not know why h1 text (Bryan) has additional padding on top, maybe font?
+     margin-top, tries to force align it. 
+  */
+  margin-top: 28px;
+  width: 250px;
+}
