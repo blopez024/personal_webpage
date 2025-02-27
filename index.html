@@ -20,7 +20,7 @@
       <nav>
         <ul>
           <li><a href="#home">home</a></li>
-          <li><a href="#skills">skills</a></li>
+          <!-- <li><a href="#skills">skills</a></li> -->
           <li><a href="#projects">projects</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
@@ -137,7 +137,7 @@
             <img src="/assets/profile_pic.jpg" alt="photo of bryan" />
           </div>
         </div>
-        <div class="projects">
+        <div class="projects" id="projects">
           <h2 class="title-section">projects</h2>
           <div class="all-projects">
             <div class="project">
@@ -179,7 +179,17 @@
             </div>
           </div>
         </div>
-        <div class="contact"></div>
+        <div class="contact" id="contact">
+          <h2 class="title-section">contact me</h2>
+          <form>
+            <div class="email-from">
+              <input type="text" name="name" placeholder="name" required />
+              <input type="email" name="email" placeholder="email" required />
+            </div>
+            <textarea placeholder="message..." required> </textarea>
+            <button type="submit">send 📩</button>
+          </form>
+        </div>
       </div>
     </main>
   </body>
