@@ -238,3 +238,9 @@ textarea::placeholder {
   padding: 10px;
   border-radius: 5px;
 }
+
+.contact form button:hover {
+  background-color: white;
+  color: #32416b;
+  cursor: pointer;
+}
